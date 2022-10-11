@@ -1,3 +1,19 @@
 body {
-    background: blue;
+    background: pink;
+}
+
+.nameBox {
+    margin-left: auto;
+    margin-right: auto;
+    height: 100px;
+    border: 1px solid black;
+    background: white;
+    }
+
+.allieSoldau {
+    margin: auto;
+    width: 640px; 
+    padding-top: 30px;
+    font-family: 'Lexend Deca', sans-serif; 
+    color: #2E475D;
 }
