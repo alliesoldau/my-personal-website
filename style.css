@@ -81,15 +81,16 @@ body {
   width: 150px;
   height: 150px;
   background-color: #e0ff4fff;
-  border-radius: 50% 50% 0% 0%;
-  display:block;
+  border-radius: 50%;
+  display: block;
   float: left;
   margin-left: 80px;
   position:relative;
+  border: none;
 }
 
 .dot p {
-  margin-top: 40%;
+  margin-top: 20%;
   text-align: center;
   color: #003d3aff;
   font-size: 25px;
