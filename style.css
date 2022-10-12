@@ -81,9 +81,9 @@ body {
   width: 150px;
   height: 150px;
   background-color: #e0ff4fff;
-  border-radius: 50%;
+  border-radius: 50% 50% 0% 0%;
   display:block;
-  float:left;
+  float: left;
   margin-left: 80px;
   position:relative;
 }
@@ -110,7 +110,7 @@ body {
 
 #boxB {
 	background: #e0ff4fff;
-	border-radius: 50px;
+	border-radius: 5% / 20%;;
   margin-left: 50px;
   margin-right: 50px;
   padding-top: 0px;
@@ -125,3 +125,5 @@ body {
   font-family: 'Dosis';
   font-size: 20px;
 }
+
+
