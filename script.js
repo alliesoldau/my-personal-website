@@ -7,7 +7,9 @@
 
 var element = document.getElementById('toggleAboutMe');
 element.onclick = function () { 
-    if (this.style.backgroundColor = "e0ff4fff") {
+    if (this.style.backgroundColor == "rgb(224, 255, 79)") {
+        // Add double equals to all the others
+        // Convert HEX to RGB values
         this.style.backgroundColor = "#57a773ff";
         this.style.borderRadius = "50% 50% 0% 0%";
         var boxAboutMe = document.getElementById("boxAboutMe");
@@ -15,8 +17,10 @@ element.onclick = function () {
     } else {
         this.style.backgroundColor = "#e0ff4fff";
         var boxAboutMe = document.getElementById("boxAboutMe");
+        this.style.borderRadius = "50%";
         boxAboutMe.style.display = "block";
     } 
+    console.log(this.style.backgroundColor);
  };
 
 var element = document.getElementById('toggleResume');
