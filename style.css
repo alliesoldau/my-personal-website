@@ -62,10 +62,10 @@ body {
 
 #boxA {
 	background: #e9f1f7ff;
-    border: 4px solid #ff6663ff;
+  border: 4px solid #ff6663ff;
 	border-radius: 50px;
-    margin-left: 10px;
-    margin-right: 10px;
+  margin-left: 50px;
+  margin-right: 50px;
 }
 
 #boxA p {
@@ -78,24 +78,50 @@ body {
 }
 
 .dot {
-  width: 200px;
-  height: 200px;
+  width: 150px;
+  height: 150px;
   background-color: #e0ff4fff;
   border-radius: 50%;
-  display: inline-block;
-  padding: 10px;
+  display:block;
+  float:left;
+  margin-left: 80px;
+  position:relative;
 }
 
 .dot p {
   margin-top: 40%;
   text-align: center;
   color: #003d3aff;
-  font-size: 30px;
-  font-weight: 200;
+  font-size: 25px;
+  font-weight: 600;
   font-family: 'Barlow';
+  text-shadow: 0.1em 0.1em #e9f1f7ff;
+}
+
+#twoLineText {
+  margin-top: 45px;
 }
 
 #expandableDots {
-  margin-left: 40px;
   margin-top: 30px;
+  display: flex;
+  justify-content: center;
+}
+
+#boxB {
+	background: #e0ff4fff;
+	border-radius: 50px;
+  margin-left: 50px;
+  margin-right: 50px;
+  padding-top: 0px;
+}
+
+#boxB p {
+  text-align: left;
+  margin: 0px;
+  margin-left: 50px;
+  margin-right: 50px;
+  color: #003d3aff;
+  font-family: 'Dosis';
+  font-size: 20px;
 }
