@@ -3,7 +3,7 @@
 --alice-blue: #e9f1f7ff;
 --rich-black: #003d3aff;
 --bittersweet: #ff6663ff;
---arctic-lime: #e0ff4fff;
+--arctic-lime: #e0ff4fff; rgb(224, 255, 79)
 --forest-green-crayola: #57a773ff; */
 
 @import url('https://fonts.googleapis.com/css?family=Barlow');
@@ -80,7 +80,7 @@ body {
 .dot {
   width: 150px;
   height: 150px;
-  background-color: #e0ff4fff;
+  background-color: rgb(224, 255, 79);
   border-radius: 50%;
   display: block;
   float: left;
@@ -109,22 +109,20 @@ body {
   justify-content: center;
 }
 
-#boxB {
-	background: #e0ff4fff;
-	border-radius: 5% / 20%;;
+#boxAboutMe, #boxResume, #boxVolunteering, #boxPassions, #boxPersonalProjects {
+  display: none;
+  background: #57a773ff;
+  color: #e9f1f7ff;
+  border-radius: 5% / 20%;;
   margin-left: 50px;
   margin-right: 50px;
   padding-top: 0px;
-}
-
-#boxB p {
   text-align: left;
-  margin: 0px;
-  margin-left: 50px;
-  margin-right: 50px;
-  color: #003d3aff;
   font-family: 'Dosis';
   font-size: 20px;
 }
 
+#boxAboutMe p, #boxResume p, #boxVolunteering p, #boxPassions p, #boxPersonalProjects p {
+  margin: 0px;
+}
 
