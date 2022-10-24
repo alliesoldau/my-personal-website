@@ -2,37 +2,53 @@
 <html lang="en">
   <head>
     <link rel="stylesheet" href="style.css"/>
+    <!-- Add icon library for social media buttons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="https://kit.fontawesome.com/6545c16482.js" crossorigin="anonymous"></script>
     <title>Allie Soldau - Web Dev</title>
   </head>
   <body>
-
     <section class="header">
-        <h1>Allie Soldau
-            <span id="headerSpan" class="firstSection">Mechanical engineer</span>
-            <span><i class="fa-solid fa-gears"></i>
-            <span id="headerSpan">turned web developer</span>
-            <span><i class="fa-solid fa-code"></i></span></h1>
+        <h1>
+          <span class="AllieSoldau">Allie Soldau</span>
+        <!-- Add in social media buttons -->
+          <span><a href="#" class="fa fa-instagram"></a></span>
+        </h1>
     </section>
     <div id="boxA">
-      <p>I am an innovative mechanical engineer with a strong drive to create solutions. With 5+ years 
-        of professional experience in the consumer hardware industry, I am accomplished in driving projects from concept to shelf. I am thrilled to be embarking on a new chapter in my career with Flatiron School where I’m deep diving into software engineering with their intensive boot camp.</p>
+      <p><span>Mechanical engineer</span>
+        <span><i class="fa-solid fa-gears"></i>
+        <span>turned web developer</span>
+        <span><i class="fa-solid fa-code"></i></span></p>
     </div>
+    <!-- I'M COMMENTING OUT EVERYTHING TO DO WITH THE VOLUNTEERING  DOT/BOX BC I CAN'T FIND THE BUG-->
     <div id="expandableDots">
       <button id="toggleAboutMe" class="dot"><p>About Me</p></button>
       <button id="toggleResume" class="dot"><p>Resume</p></button>
-      <button id="toggleVolunteering" class="dot"><p>Volunteering</p></button>
+      <!-- <button id="toggleVolunteering" class="dot"><p>Volunteering</p></button> -->
       <button id="togglePassions" class="dot"><p>Passions</p></button>
       <button id="togglePersonalProjects" class="dot"><p id="twoLineText">Personal<br>Projects</p></button>
     </div>
     <div id="boxAboutMe">
-      <p>About Me</p>
+      <p>Hi there! I'm Allie (they/them).</p>
+      <p>I am a mechanical engineer by training with 5+ years 
+        of professional experience in the consumer hardware industry. I am accomplished in driving 
+        projects from concept to shelf, and get jazzed about trying to find the most elegant solution 
+        to complex probelms. While working as a mechanical design engineer I got a taste of coding
+        through programing Arduinos for robotics and I quickly found myself taking online courses in
+        software engineering and volunteering for any software related project at work. As of Oct. 2022 I
+        took an exciting leap into the next stage of my career by commiting to a software intensive bootcamp
+        with Flatiron School in NYC.</p>
+      <p>I grew up in New Hampshire and went to college at Northeastern University in Boston, MA. While in school 
+        I moved around every 6 months through the co-op program where I lived and worked in 
+        Rome, Italy; Manchester, VT; Vancouver, CA; Woodinville, WA; and the Bay Area. Since graduating I spent a
+        stint in NYC, and am currently residing in Upstate, NY with my fiance while he attends medical school.</p>
     </div>
     <div id="boxResume">
       <p>Resume</p>
     </div>
-    <div id="boxVolunteering">
-      <p>Volunteering</p>
+    <!-- <div id="boxVolunteering">
+      <p>Volunteering</p> -->
     </div>
     <div id="boxPassions">
       <p>Passions</p>
